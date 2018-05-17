@@ -1,4 +1,5 @@
 中国土地市场网
+
 爬取信息:
 
 	ordnum		序号
@@ -18,11 +19,12 @@
 	created_time	插入时间
 
 
-### 安装Python
+Python3.5以上
 
-至少Python3.5以上
+配置settings
 
-###配置settings
-###日期范围十天!
+日期范围十天!
 
 SPIDER_DATE = '要爬取的日期'
+
+配置mysql数据库
