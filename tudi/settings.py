@@ -143,9 +143,9 @@ RETRY_TIMES=3
 
 #配置mysql
 MYSQL_HOST = 'localhost'
-MYSQL_DBNAME = 'jh_project01'
-MYSQL_USER = 'root'
-MYSQL_PASSWD = 'root'
+MYSQL_DBNAME = 'db'
+MYSQL_USER = 'xx'
+MYSQL_PASSWD = 'xx'
 MYSQL_PORT = 3306
 
 #爬取日期(一次十天,十天十天爬取)
