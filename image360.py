@@ -31,3 +31,10 @@ class Image360Spider(scrapy.Spider):
             item['title'] = image.get('group_title')
             item['thumb'] = image.get('qhimg_thumb_url')
             yield item
+            
+            
+            LOG_FILE = "mySpider.log"
+LOG_LEVEL = "ERROR"
+
+SPIDER_DATE='2017-1-1~2017-1-10'
+            
